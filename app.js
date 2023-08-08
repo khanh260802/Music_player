@@ -28,12 +28,6 @@ const app = {
     
     songs: [
         {
-            "name": "Nevada", 
-            "singer": "Vicetone",
-            "path": "./assets/songs/Vicetone-Nevada.mp3",
-            "image": "./assets/img/Vicetone-Nevada.jpg"
-        }
-        ,{
             "name": "Cupid", 
             "singer": "FIFTY FIFTY",
             "path": "./assets/songs/'Cupid' (TwinVer.).mp3",
@@ -110,6 +104,12 @@ const app = {
             "singer": "Emcee L (Da LAB)",
             "path": "./assets/songs/Sinh Ra Đã Là Thứ Đối Lập Nhau - Emcee L (Da LAB).mp3",
             "image": "./assets/img/SinhRaDaLaThuDoiLap.jpg"
+        }
+        ,{
+            "name": "Nevada", 
+            "singer": "Vicetone",
+            "path": "./assets/songs/Vicetone-Nevada.mp3",
+            "image": "./assets/img/Vicetone-Nevada.jpg"
         }
     ],
     render : function() { 
@@ -290,9 +290,7 @@ const app = {
             }
             scrollCurrentSongIntoView(); 
         }
-
         
-
         btnPreSong.onclick = () => { 
             if(isRandom) 
                 playRandom() 
