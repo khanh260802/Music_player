@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The art of sound</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/icons8-music-32.png">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">    
+    <link rel="stylesheet" href="./assets/css/responsive.css">    
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="dashboard">
+                <div class="dashboard__header">
+                    <!-- <h2 class="song-name"> Nevada </h2>
+                    <p class="song-author"> Vicetone </p> -->
+                </div>
+                <div class="dashboard__CD">
+                    <div class="dashboard__cd-thumb">
+                    </div>
+                </div>
+
+                <div class="dashboard__control">
+                    <i class="fa-solid fa-rotate-right btnRepeat"></i>
+                    <i class="fa-solid fa-backward-step btnPreSong"></i>
+                    <div class="wrap-play-pause">
+                        <i class="fa-solid fa-play fa-xl icon-play"></i>
+                        <i class="fa-solid fa-pause fa-xl icon-pause"></i>
+                    </div>
+                    <i class="fa-solid fa-forward-step btnNextSong"></i>
+                    <i class="fa-solid fa-shuffle btnRandom"></i>
+                </div>
+                
+                <div class="wrap-progress">
+                    <input type="range" class="dashboard__progress" min = "0" max = "100" value="0" step="1">
+                </div>
+
+                <audio class="dashboard__audio" src=""></audio>
+            </div>
+
+            <div class="playlist">
+            </div>
+
+        </div>
+        <div class="background-second background-second--mobile"></div>
+    </div>
+
+    <script src = './app.js'></script>
+</body>
+
+</html>
